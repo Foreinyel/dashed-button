@@ -6,10 +6,10 @@ export const Example = () => {
     <div>
       <Component
         onClick={() => {
-          alert("link button clicked");
+          alert("dashed button clicked");
         }}
       >
-        Link Button
+        Dashed Button
       </Component>
     </div>
   );
