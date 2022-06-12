@@ -1,7 +1,17 @@
 import React from "react";
+import css from "./Component.less";
 
-export const Component = (props: any) => {
-  return <div>{props.children}</div>;
+export interface DashedButtonProps {
+  onClick?: () => void;
+  children?: React.ReactNode | React.ReactNode[];
+}
+
+export const Component = (props: DashedButtonProps) => {
+  return (
+    <button onClick={props.onClick} className={css.dashedButton}>
+      {props.children}
+    </button>
+  );
 };
 
 export default Component;
