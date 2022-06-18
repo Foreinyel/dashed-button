@@ -1,3 +1,7 @@
-import Component from "./Component";
+import DashedButton from "./Component";
 
-export default Component;
+export {
+    DashedButton
+};
+
+export default DashedButton;
