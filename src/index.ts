@@ -4,4 +4,4 @@ export {
     DashedButton
 };
 
-export default Component;
+export default DashedButton;
