@@ -9,7 +9,7 @@ export interface DashedButtonProps {
 export const Component = (props: DashedButtonProps) => {
   return (
     <button onClick={props.onClick} className={css.dashedButton}>
-      {props.children}
+      {props.children} 3
     </button>
   );
 };
